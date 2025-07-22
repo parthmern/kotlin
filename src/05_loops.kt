@@ -16,11 +16,9 @@ fun main() {
         count++
     } while (count <= 10);
 
-    for (i in 100..110)
+    for (i in 100..110)     // included both
     {
-
         println("For loop $i")
-
     }
 
     for (i in 10 downTo 1) {
@@ -34,6 +32,8 @@ fun main() {
     for (i in 1 ..9) {
         println("i = $i")
     }
+
+    // ARRAY
     val favActivities: Array<String> = arrayOf("cricket", "chess", "music", "programming")
     for (activity in favActivities.reversed()) {
         println(activity)
